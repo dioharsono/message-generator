@@ -30,5 +30,13 @@ const fortunes = [
   "You’ll win a debate with a toaster."
 ];
 
+const randomVibe = vibes[Math.floor(Math.random() * vibes.length)];
+const randomSuggestion = suggestions[Math.floor(Math.random() * suggestions.length)];
+const randomFortune = fortunes[Math.floor(Math.random() *  fortunes.length)];
 
-console.log("test");
+console.log(`
+    You're feeling: ${randomVibe}
+    Suggestion: ${randomSuggestion}
+    Fortune: ${randomFortune}
+    `);
+    
